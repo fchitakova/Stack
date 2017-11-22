@@ -16,7 +16,7 @@ private:
 		T data;
 		Node<T>*previous;
 		Node<T>*next;
-		Node(T d,Node<T>*prev=NULL,Node<T>*n=NULL):data(d),previous(prev),next(n){}
+		Node(const T & d,Node<T>*prev=NULL,Node<T>*n=NULL):data(d),previous(prev),next(n){}
 	};
 
 public:
